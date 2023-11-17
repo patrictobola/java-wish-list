@@ -25,5 +25,9 @@ public class Regalo {
 		this.destinatario = destinatario;
 	}
 	
-	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Regalo per: " + getDestinatario() + " ed è: " + getName();
+	}
 }
